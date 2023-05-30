@@ -3044,6 +3044,7 @@ h1, .h1 { padding: 10px 0; letter-spacing: 10px; }
 @media screen and (max-width: 449px) and (min-width: 0) { h1, .h1 { letter-spacing: 0; } }
 
 .BigtitleBoxs { display: inline-block; width: 100%; height: 100%; }
+@media screen and (max-width: 449px) and (min-width: 0) { .BigtitleBoxs { width: 50%; } }
 
 .allBoxs { display: inline-block; width: 100%; max-width: 1200px; margin: 0 auto; }
 
@@ -3051,7 +3052,7 @@ h1, .h1 { padding: 10px 0; letter-spacing: 10px; }
 @media screen and (max-width: 449px) and (min-width: 0) { .box50 { width: 100%; } }
 
 .proBoxs { display: inline-block; width: 50%; height: 100%; top: 0; left: 3%; }
-@media screen and (max-width: 449px) and (min-width: 0) { .proBoxs { width: 100%; height: auto; padding: 0 10px; } }
+@media screen and (max-width: 449px) and (min-width: 0) { .proBoxs { width: 100%; height: auto; padding: 0 10px; left: 0; } }
 
 .proBoxs-m { display: none !important; }
 @media screen and (max-width: 449px) and (min-width: 0) { .proBoxs-m { display: inline-block !important; padding: 0 10px; width: 100%; bottom: 20px; } }
@@ -3098,6 +3099,7 @@ h1, .h1 { padding: 10px 0; letter-spacing: 10px; }
 .f20 { font-size: 1.53rem; font-weight: 400; }
 
 .f20-unset { font-size: 1.53rem; }
+@media screen and (max-width: 449px) and (min-width: 0) { .f20-unset { font-size: 1.3rem; } }
 
 .f18 { font-size: 1.38rem; }
 
@@ -3143,6 +3145,8 @@ h1, .h1 { padding: 10px 0; letter-spacing: 10px; }
 
 .number-pink { display: inline-block; width: 100%; font-size: 1.53rem; padding-bottom: 20px; font-weight: 400; }
 .number-pink:before { display: inline-block; content: attr(title); width: 40px; height: 40px; border-radius: 20px; background-color: #E2697E; margin-right: 10px; color: white; font-size: 1.53rem; font-weight: 400; line-height: 38px; text-align: center; }
+@media screen and (max-width: 449px) and (min-width: 0) { .number-pink { font-size: 1.3rem; padding-bottom: 13px; }
+  .number-pink:before { display: inline-block; content: attr(title); width: 35px; height: 35px; border-radius: 20px; background-color: #E2697E; margin-right: 10px; color: white; font-size: 1.3rem; font-weight: 400; line-height: 33px; } }
 
 .dot-pink { display: inline-block; }
 .dot-pink:before { display: inline-block; vertical-align: baseline !important; content: ''; width: 15px; height: 15px; border-radius: 15px; background-color: #F2CFD1; margin-right: 10px; }
